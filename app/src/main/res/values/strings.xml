@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="title_activity_main">Counter</string>
+
+    <string name="button1">+1</string>
+    <string name="button2">Clear</string>
+    <string name="textview">TextView</string>
+    <string name="value_format">Value: %d</string>
+    <string name="button3">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="return_str">Return</string>
+    <string name="enable_notifications">Enable everyday notifications</string>
+
+    <string name="edit_text_time_button">Edit</string>
+    <string name="save">Save</string>
+</resources>
