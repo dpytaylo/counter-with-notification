@@ -15,12 +15,11 @@ import androidx.core.content.ContextCompat;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
 
-//BroadcastReceiver
 public class NotificationReceiver extends Worker {
     private static final String CHANNEL_ID = "0";
     private static final int NOTIFICATION_ID = 1;
 
-    NotificationReceiver(Context context, WorkerParameters parameters) {
+    public NotificationReceiver(Context context, WorkerParameters parameters) {
         super(context, parameters);
     }
 

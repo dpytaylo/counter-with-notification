@@ -21,6 +21,8 @@ public class CounterNotification implements Serializable {
     }
 
     public void enableNotification(int hours, int minutes) {
+        disableNotification();
+
         var now = new Date();
         var firstNotification = Calendar.getInstance();
         firstNotification.setTimeInMillis(System.currentTimeMillis());
